@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "src/app/api/auth/[...nextauth]/route.ts": {
+      "maxDuration": 10
+    }
+  },
+  "env": {
+    "SKIP_ENV_VALIDATION": "true"
+  },
+  "buildCommand": "npm run build",
+  "framework": "nextjs",
+  "regions": ["iad1"]
+}
