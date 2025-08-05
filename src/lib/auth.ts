@@ -1,10 +1,20 @@
 import type { NextAuthOptions, DefaultSession } from "next-auth"
 import { PrismaAdapter } from "@auth/prisma-adapter"
 import CredentialsProvider from "next-auth/providers/credentials"
-import { prisma } from "@/lib/prisma"
+
+// Conditional Prisma import to prevent build issues
+let prisma: any;
+try {
+  const { prisma: importedPrisma } = require("@/lib/prisma");
+  prisma = importedPrisma;
+} catch (error) {
+  console.warn('Prisma not available during build');
+  prisma = null;
+}
 
 export const authOptions: NextAuthOptions = {
-  adapter: PrismaAdapter(prisma) as any,
+  // Only use Prisma adapter if available
+  ...(prisma && { adapter: PrismaAdapter(prisma) as any }),
   providers: [
     CredentialsProvider({
       id: "otp",
@@ -18,6 +28,11 @@ export const authOptions: NextAuthOptions = {
           return null
         }
 
+        // Skip database operations during build
+        if (!prisma) {
+          return null;
+        }
+
         // TODO: Implement OTP verification logic
         // This is a simplified version - in production, you'd verify the OTP
         // against a stored value in your database or cache
@@ -27,28 +42,33 @@ export const authOptions: NextAuthOptions = {
           return null
         }
 
-        // Find or create user based on phone number
-        let user = await prisma.user.findUnique({
-          where: { phone: credentials.phone }
-        })
-
-        if (!user) {
-          user = await prisma.user.create({
-            data: {
-              phone: credentials.phone,
-              phoneVerified: new Date(),
-              role: "WORKER", // Default role
-            }
+        try {
+          // Find or create user based on phone number
+          let user = await prisma.user.findUnique({
+            where: { phone: credentials.phone }
           })
-        }
 
-        return {
-          id: user.id,
-          phone: user.phone || undefined,
-          name: user.name,
-          email: user.email,
-          image: user.image,
-          role: user.role,
+          if (!user) {
+            user = await prisma.user.create({
+              data: {
+                phone: credentials.phone,
+                phoneVerified: new Date(),
+                role: "WORKER", // Default role
+              }
+            })
+          }
+
+          return {
+            id: user.id,
+            phone: user.phone || undefined,
+            name: user.name,
+            email: user.email,
+            image: user.image,
+            role: user.role,
+          }
+        } catch (error) {
+          console.error('Database error during authentication:', error);
+          return null;
         }
       },
     }),

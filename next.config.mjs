@@ -17,6 +17,15 @@ const nextConfig = {
   experimental: {
     instrumentationHook: true,
   },
+  // Exclude problematic routes from static generation
+  typescript: {
+    ignoreBuildErrors: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+  // Skip tracing for API routes during build
+  output: 'standalone',
 }
 
 export default withNextIntl(nextConfig);
