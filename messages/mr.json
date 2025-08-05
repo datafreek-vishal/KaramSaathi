@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "मुख्यपृष्ठ",
+    "jobs": "नोकऱ्या",
+    "profile": "प्रोफाइल",
+    "dashboard": "डॅशबोर्ड"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "phone": "फोन नंबर",
+    "email": "ईमेल",
+    "otp": "ओटीपी",
+    "sendOtp": "ओटीपी पाठवा",
+    "verifyOtp": "ओटीपी सत्यापित करा",
+    "name": "पूर्ण नाव",
+    "age": "वय",
+    "gender": "लिंग",
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "इतर",
+    "city": "शहर",
+    "pincode": "पिनकोड",
+    "experience": "अनुभव",
+    "category": "नोकरीची श्रेणी",
+    "companyName": "कंपनीचे नाव",
+    "companySize": "कंपनीचा आकार"
+  },
+  "common": {
+    "submit": "सबमिट करा",
+    "cancel": "रद्द करा",
+    "save": "सेव्ह करा",
+    "edit": "संपादित करा",
+    "delete": "हटवा",
+    "view": "पहा",
+    "apply": "अर्ज करा",
+    "contact": "संपर्क करा",
+    "search": "शोधा",
+    "filter": "फिल्टर",
+    "clear": "साफ करा",
+    "loading": "लोड होत आहे...",
+    "error": "त्रुटी",
+    "success": "यश",
+    "back": "मागे",
+    "next": "पुढे",
+    "previous": "मागील",
+    "close": "बंद करा"
+  },
+  "jobs": {
+    "title": "नोकरीचे शीर्षक",
+    "description": "नोकरीचे वर्णन",
+    "requirements": "आवश्यकता",
+    "salary": "पगार",
+    "type": "नोकरीचा प्रकार",
+    "fullTime": "पूर्णवेळ",
+    "partTime": "अंशवेळ",
+    "contract": "करार",
+    "dailyWage": "दैनिक मजुरी",
+    "location": "स्थान",
+    "contactPhone": "संपर्क फोन",
+    "contactEmail": "संपर्क ईमेल",
+    "noJobsFound": "कोणत्याही नोकऱ्या सापडल्या नाहीत",
+    "createJob": "नोकरी तयार करा",
+    "viewApplications": "अर्ज पहा",
+    "applications": "अर्ज"
+  },
+  "profile": {
+    "myProfile": "माझे प्रोफाइल",
+    "personalInfo": "वैयक्तिक माहिती",
+    "workInfo": "कामाची माहिती",
+    "uploadPhoto": "फोटो अपलोड करा",
+    "changePhoto": "फोटो बदला",
+    "removePhoto": "फोटो काढा"
+  },
+  "admin": {
+    "dashboard": "अॅडमिन डॅशबोर्ड",
+    "users": "वापरकर्ते",
+    "categories": "श्रेणी",
+    "jobPosts": "नोकरी पोस्ट",
+    "analytics": "विश्लेषण",
+    "settings": "सेटिंग्ज",
+    "totalUsers": "एकूण वापरकर्ते",
+    "totalJobs": "एकूण नोकऱ्या",
+    "pendingApprovals": "प्रलंबित मंजुरी"
+  },
+  "employer": {
+    "dashboard": "नियोक्ता डॅशबोर्ड",
+    "myJobs": "माझ्या नोकऱ्या",
+    "createJob": "नवीन नोकरी तयार करा",
+    "applications": "अर्ज",
+    "exportData": "डेटा निर्यात करा"
+  },
+  "worker": {
+    "dashboard": "कामगार डॅशबोर्ड",
+    "findJobs": "नोकऱ्या शोधा",
+    "myApplications": "माझे अर्ज",
+    "appliedJobs": "अर्ज केलेल्या नोकऱ्या"
+  }
+}

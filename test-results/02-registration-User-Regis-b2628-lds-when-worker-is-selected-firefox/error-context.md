@@ -1,0 +1,53 @@
+# Page snapshot
+
+```yaml
+- link "KaramSaathi":
+  - /url: /en
+  - heading "KaramSaathi" [level=1]
+- heading "Create your account" [level=2]
+- paragraph:
+  - text: Already have an account?
+  - link "Sign in":
+    - /url: /en/auth/login
+- text: I am registering as a
+- radio "Worker Looking for jobs" [checked]
+- img
+- paragraph: Worker
+- paragraph: Looking for jobs
+- radio "Employer Hiring workers"
+- img
+- paragraph: Employer
+- paragraph: Hiring workers
+- text: Full Name
+- img
+- textbox "Full Name"
+- text: Phone Number
+- img
+- textbox "Phone Number"
+- text: Email Address (Optional)
+- img
+- textbox "Email Address (Optional)"
+- text: Location
+- img
+- textbox "Location"
+- text: Skills & Experience
+- textbox "Skills & Experience"
+- checkbox "I agree to the Terms of Service and Privacy Policy"
+- text: I agree to the
+- link "Terms of Service":
+  - /url: /en/terms
+- text: and
+- link "Privacy Policy":
+  - /url: /en/privacy
+- checkbox "I want to receive job alerts and updates via SMS and email"
+- text: I want to receive job alerts and updates via SMS and email
+- button "Create Account"
+- text: Or continue with
+- button "Google"
+- button "Facebook"
+- link "Back to home":
+  - /url: /en
+  - img
+  - text: Back to home
+- alert
+```

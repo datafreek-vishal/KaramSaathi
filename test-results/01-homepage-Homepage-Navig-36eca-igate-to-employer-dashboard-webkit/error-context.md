@@ -1,0 +1,116 @@
+# Page snapshot
+
+```yaml
+- alert
+- banner:
+  - link "KaramSaathi":
+    - /url: /en
+  - navigation:
+    - link "Find Jobs":
+      - /url: /en/jobs
+    - link "Post Job":
+      - /url: /en/post-job
+    - link "About":
+      - /url: /en/about
+  - link "Login":
+    - /url: /en/auth/login
+  - link "Sign Up":
+    - /url: /en/auth/register
+- navigation:
+  - link "Home":
+    - /url: /en
+    - img
+    - text: Home
+  - text: / Post a Job
+- heading "Post a Job" [level=1]
+- paragraph: Find the right workers for your business. Create a detailed job posting to attract qualified candidates.
+- heading "Job Posting Pricing" [level=3]
+- paragraph: Post your job for ₹299 for 30 days. Get quality applications from verified workers.
+- text: ₹299 for 30 days
+- heading "Basic Information" [level=2]
+- text: Job Title *
+- textbox "e.g., Construction Helper, House Cleaner"
+- text: Job Category *
+- combobox:
+  - option "Select a category" [selected]
+  - option "Construction"
+  - option "Cleaning"
+  - option "Delivery"
+  - option "Cooking"
+  - option "Electrical"
+  - option "Plumbing"
+  - option "Gardening"
+  - option "Security"
+  - option "Driver"
+  - option "Mechanic"
+  - option "Painter"
+  - option "Carpenter"
+  - option "Welder"
+  - option "Mason"
+  - option "Helper"
+  - option "Other"
+- text: Company Name *
+- textbox "Your company name"
+- text: Job Type *
+- combobox:
+  - option "Select job type" [selected]
+  - option "Full-time"
+  - option "Part-time"
+  - option "Contract"
+  - option "Temporary"
+- heading "Location & Compensation" [level=2]
+- text: Job Location *
+- img
+- textbox "City, State (e.g., Mumbai, Maharashtra)"
+- text: Minimum Salary (₹) *
+- img
+- spinbutton
+- text: Maximum Salary (₹) *
+- img
+- spinbutton
+- text: Salary Period
+- combobox:
+  - option "Per Month" [selected]
+  - option "Per Day"
+  - option "Per Hour"
+  - option "Per Project"
+- text: Experience Required
+- combobox:
+  - option "No Experience" [selected]
+  - option "1-2 years"
+  - option "3-5 years"
+  - option "5+ years"
+- heading "Job Details" [level=2]
+- text: Job Description *
+- textbox "Describe the job role, responsibilities, and what you're looking for in a candidate..."
+- text: Requirements & Skills
+- textbox "List the skills, qualifications, and requirements for this position..."
+- text: Benefits & Perks
+- textbox "What benefits do you offer? (e.g., training, equipment, bonuses, etc.)"
+- text: Working Hours
+- textbox "e.g., 8:00 AM - 6:00 PM, Monday to Saturday"
+- text: Number of Positions
+- img
+- spinbutton
+- text: Application Deadline
+- textbox
+- heading "Contact Information" [level=2]
+- text: Contact Person *
+- textbox "Full name of contact person"
+- text: Phone Number *
+- textbox "+91 98765 43210"
+- text: Email Address *
+- textbox "contact@company.com"
+- text: Company Website
+- textbox "https://www.company.com"
+- heading "Additional Options" [level=2]
+- checkbox "Mark this job as urgent (₹100 extra for priority listing)"
+- text: Mark this job as urgent (₹100 extra for priority listing)
+- checkbox "Receive applications via email notifications"
+- text: Receive applications via email notifications
+- checkbox "Allow applications via WhatsApp"
+- text: Allow applications via WhatsApp
+- button "Post Job - ₹299"
+- button "Save as Draft"
+- paragraph: By posting this job, you agree to our Terms of Service and Privacy Policy. Your job will be reviewed and published within 24 hours.
+```

@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "Home",
+    "jobs": "Jobs",
+    "profile": "Profile",
+    "dashboard": "Dashboard"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "phone": "Phone Number",
+    "email": "Email",
+    "otp": "OTP",
+    "sendOtp": "Send OTP",
+    "verifyOtp": "Verify OTP",
+    "name": "Full Name",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "city": "City",
+    "pincode": "Pincode",
+    "experience": "Experience",
+    "category": "Job Category",
+    "companyName": "Company Name",
+    "companySize": "Company Size"
+  },
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "apply": "Apply",
+    "contact": "Contact",
+    "search": "Search",
+    "filter": "Filter",
+    "clear": "Clear",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close"
+  },
+  "jobs": {
+    "title": "Job Title",
+    "description": "Job Description",
+    "requirements": "Requirements",
+    "salary": "Salary",
+    "type": "Job Type",
+    "fullTime": "Full Time",
+    "partTime": "Part Time",
+    "contract": "Contract",
+    "dailyWage": "Daily Wage",
+    "location": "Location",
+    "contactPhone": "Contact Phone",
+    "contactEmail": "Contact Email",
+    "noJobsFound": "No jobs found",
+    "createJob": "Create Job",
+    "viewApplications": "View Applications",
+    "applications": "Applications"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "personalInfo": "Personal Information",
+    "workInfo": "Work Information",
+    "uploadPhoto": "Upload Photo",
+    "changePhoto": "Change Photo",
+    "removePhoto": "Remove Photo"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "users": "Users",
+    "categories": "Categories",
+    "jobPosts": "Job Posts",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "totalUsers": "Total Users",
+    "totalJobs": "Total Jobs",
+    "pendingApprovals": "Pending Approvals"
+  },
+  "employer": {
+    "dashboard": "Employer Dashboard",
+    "myJobs": "My Jobs",
+    "createJob": "Create New Job",
+    "applications": "Applications",
+    "exportData": "Export Data"
+  },
+  "worker": {
+    "dashboard": "Worker Dashboard",
+    "findJobs": "Find Jobs",
+    "myApplications": "My Applications",
+    "appliedJobs": "Applied Jobs"
+  }
+}

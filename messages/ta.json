@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "முகப்பு",
+    "jobs": "வேலைகள்",
+    "profile": "சுயவிவரம்",
+    "dashboard": "டாஷ்போர்டு"
+  },
+  "auth": {
+    "login": "உள்நுழைய",
+    "signup": "பதிவு செய்க",
+    "phone": "தொலைபேசி எண்",
+    "email": "மின்னஞ்சல்",
+    "otp": "OTP",
+    "sendOtp": "OTP அனுப்பு",
+    "verifyOtp": "OTP சரிபார்",
+    "name": "முழு பெயர்",
+    "age": "வயது",
+    "gender": "பாலினம்",
+    "male": "ஆண்",
+    "female": "பெண்",
+    "other": "மற்றது",
+    "city": "நகரம்",
+    "pincode": "பின்கோடு",
+    "experience": "அனுபவம்",
+    "category": "வேலை வகை",
+    "companyName": "நிறுவன பெயர்",
+    "companySize": "நிறுவன அளவு"
+  },
+  "common": {
+    "submit": "சமர்ப்பிக்க",
+    "cancel": "ரத்து செய்",
+    "save": "சேமி",
+    "edit": "திருத்து",
+    "delete": "நீக்கு",
+    "view": "பார்",
+    "apply": "விண்ணப்பிக்க",
+    "contact": "தொடர்பு",
+    "search": "தேடு",
+    "filter": "வடிகட்டு",
+    "clear": "அழி",
+    "loading": "ஏற்றப்படுகிறது...",
+    "error": "பிழை",
+    "success": "வெற்றி",
+    "back": "பின்",
+    "next": "அடுத்த",
+    "previous": "முந்தைய",
+    "close": "மூடு"
+  },
+  "jobs": {
+    "title": "வேலை தலைப்பு",
+    "description": "வேலை விளக்கம்",
+    "requirements": "தேவைகள்",
+    "salary": "சம்பளம்",
+    "type": "வேலை வகை",
+    "fullTime": "முழு நேரம்",
+    "partTime": "பகுதி நேரம்",
+    "contract": "ஒப்பந்தம்",
+    "dailyWage": "தினசரி கூலி",
+    "location": "இடம்",
+    "contactPhone": "தொடர்பு தொலைபேசி",
+    "contactEmail": "தொடர்பு மின்னஞ்சல்",
+    "noJobsFound": "வேலைகள் கிடைக்கவில்லை",
+    "createJob": "வேலை உருவாக்க",
+    "viewApplications": "விண்ணப்பங்களை பார்",
+    "applications": "விண்ணப்பங்கள்"
+  },
+  "profile": {
+    "myProfile": "என் சுயவிவரம்",
+    "personalInfo": "தனிப்பட்ட தகவல்",
+    "workInfo": "வேலை தகவல்",
+    "uploadPhoto": "புகைப்படம் பதிவேற்று",
+    "changePhoto": "புகைப்படம் மாற்று",
+    "removePhoto": "புகைப்படம் அகற்று"
+  },
+  "admin": {
+    "dashboard": "நிர்வாக டாஷ்போர்டு",
+    "users": "பயனர்கள்",
+    "categories": "வகைகள்",
+    "jobPosts": "வேலை இடுகைகள்",
+    "analytics": "பகுப்பாய்வு",
+    "settings": "அமைப்புகள்",
+    "totalUsers": "மொத்த பயனர்கள்",
+    "totalJobs": "மொத்த வேலைகள்",
+    "pendingApprovals": "நிலுவையில் உள்ள அனுமதிகள்"
+  },
+  "employer": {
+    "dashboard": "முதலாளி டாஷ்போர்டு",
+    "myJobs": "என் வேலைகள்",
+    "createJob": "புதிய வேலை உருவாக்க",
+    "applications": "விண்ணப்பங்கள்",
+    "exportData": "தரவு ஏற்றுமதி"
+  },
+  "worker": {
+    "dashboard": "தொழிலாளர் டாஷ்போர்டு",
+    "findJobs": "வேலைகளை கண்டுபிடி",
+    "myApplications": "என் விண்ணப்பங்கள்",
+    "appliedJobs": "விண்ணப்பித்த வேலைகள்"
+  }
+}

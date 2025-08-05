@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading "KaramSaathi" [level=1]
+  - link "Login":
+    - /url: /en/auth/login
+  - link "Sign Up":
+    - /url: /en/auth/register
+- heading "Find Work. Find Workers." [level=1]
+- paragraph: India's trusted platform connecting skilled and unskilled workers with employers
+- img
+- textbox "Search for jobs, skills, or services..."
+- img
+- textbox "Location (City, State)"
+- button "Search Jobs"
+- text: 10,000+ Active Jobs 5,000+ Registered Workers 2,000+ Employers 50+ Job Categories
+- heading "Popular Job Categories" [level=2]
+- paragraph: Explore thousands of opportunities across various skill levels and industries
+- link "🏗️ Construction Worker 245 jobs available":
+  - /url: /en/jobs?category=1
+  - text: 🏗️
+  - img
+  - heading "Construction Worker" [level=3]
+  - paragraph: 245 jobs available
+- link "🏠 House Cleaning 189 jobs available":
+  - /url: /en/jobs?category=2
+  - text: 🏠
+  - img
+  - heading "House Cleaning" [level=3]
+  - paragraph: 189 jobs available
+- link "🚚 Delivery Driver 167 jobs available":
+  - /url: /en/jobs?category=3
+  - text: 🚚
+  - img
+  - heading "Delivery Driver" [level=3]
+  - paragraph: 167 jobs available
+- link "👨‍🍳 Cook/Chef 134 jobs available":
+  - /url: /en/jobs?category=4
+  - text: 👨‍🍳
+  - img
+  - heading "Cook/Chef" [level=3]
+  - paragraph: 134 jobs available
+- link "⚡ Electrician 98 jobs available":
+  - /url: /en/jobs?category=5
+  - text: ⚡
+  - img
+  - heading "Electrician" [level=3]
+  - paragraph: 98 jobs available
+- link "🔧 Plumber 87 jobs available":
+  - /url: /en/jobs?category=6
+  - text: 🔧
+  - img
+  - heading "Plumber" [level=3]
+  - paragraph: 87 jobs available
+- link "View All Categories":
+  - /url: /en/categories
+  - text: View All Categories
+  - img
+- heading "Latest Job Opportunities" [level=2]
+- paragraph: Fresh opportunities posted by employers
+- heading "Construction Helper Needed" [level=3]
+- img
+- text: Mumbai Builders
+- img
+- text: Mumbai, Maharashtra ₹15,000 - ₹25,000 Full-time 2 hours ago
+- link "Apply Now":
+  - /url: /en/jobs/1
+- heading "House Cleaning Service" [level=3]
+- img
+- text: Clean Home Services
+- img
+- text: Pune, Maharashtra ₹12,000 - ₹18,000 Part-time 4 hours ago
+- link "Apply Now":
+  - /url: /en/jobs/2
+- heading "Delivery Driver - Food" [level=3]
+- img
+- text: Quick Delivery
+- img
+- text: Delhi, NCR ₹18,000 - ₹30,000 Full-time 1 day ago
+- link "Apply Now":
+  - /url: /en/jobs/3
+- link "View All Jobs":
+  - /url: /en/jobs
+  - text: View All Jobs
+  - img
+- heading "How KaramSaathi Works" [level=2]
+- paragraph: Simple steps to connect workers and employers
+- img
+- heading "Create Profile" [level=3]
+- paragraph: Workers create profiles showcasing skills and experience. Employers post job requirements.
+- img
+- heading "Find Matches" [level=3]
+- paragraph: Our platform matches workers with suitable jobs based on skills, location, and preferences.
+- img
+- heading "Start Working" [level=3]
+- paragraph: Connect directly, negotiate terms, and start working. Build your reputation through reviews.
+- contentinfo:
+  - heading "KaramSaathi" [level=3]
+  - paragraph: Connecting India's workforce with opportunities. Building a better future through meaningful work.
+  - heading "For Workers" [level=4]
+  - list:
+    - listitem:
+      - link "Find Jobs":
+        - /url: /en/jobs
+    - listitem:
+      - link "Create Profile":
+        - /url: /en/profile
+    - listitem:
+      - link "Help Center":
+        - /url: /en/help
+  - heading "For Employers" [level=4]
+  - list:
+    - listitem:
+      - link "Post Jobs":
+        - /url: /en/post-job
+    - listitem:
+      - link "Find Workers":
+        - /url: /en/find-workers
+    - listitem:
+      - link "Employer Help":
+        - /url: /en/employer-help
+  - heading "Languages" [level=4]
+  - link "English":
+    - /url: /en
+  - link "हिंदी":
+    - /url: /hi
+  - link "मराठी":
+    - /url: /mr
+  - link "தமிழ்":
+    - /url: /ta
+  - paragraph: © 2025 KaramSaathi. All rights reserved.
+- alert
+```

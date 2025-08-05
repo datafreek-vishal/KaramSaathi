@@ -1,0 +1,99 @@
+{
+  "nav": {
+    "home": "होम",
+    "jobs": "नौकरियां",
+    "profile": "प्रोफाइल",
+    "dashboard": "डैशबोर्ड"
+  },
+  "auth": {
+    "login": "लॉगिन",
+    "signup": "साइन अप",
+    "phone": "फोन नंबर",
+    "email": "ईमेल",
+    "otp": "ओटीपी",
+    "sendOtp": "ओटीपी भेजें",
+    "verifyOtp": "ओटीपी सत्यापित करें",
+    "name": "पूरा नाम",
+    "age": "उम्र",
+    "gender": "लिंग",
+    "male": "पुरुष",
+    "female": "महिला",
+    "other": "अन्य",
+    "city": "शहर",
+    "pincode": "पिनकोड",
+    "experience": "अनुभव",
+    "category": "नौकरी की श्रेणी",
+    "companyName": "कंपनी का नाम",
+    "companySize": "कंपनी का आकार"
+  },
+  "common": {
+    "submit": "जमा करें",
+    "cancel": "रद्द करें",
+    "save": "सेव करें",
+    "edit": "संपादित करें",
+    "delete": "हटाएं",
+    "view": "देखें",
+    "apply": "आवेदन करें",
+    "contact": "संपर्क करें",
+    "search": "खोजें",
+    "filter": "फिल्टर",
+    "clear": "साफ करें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "back": "वापस",
+    "next": "अगला",
+    "previous": "पिछला",
+    "close": "बंद करें"
+  },
+  "jobs": {
+    "title": "नौकरी का शीर्षक",
+    "description": "नौकरी का विवरण",
+    "requirements": "आवश्यकताएं",
+    "salary": "वेतन",
+    "type": "नौकरी का प्रकार",
+    "fullTime": "पूर्णकालिक",
+    "partTime": "अंशकालिक",
+    "contract": "अनुबंध",
+    "dailyWage": "दैनिक मजदूरी",
+    "location": "स्थान",
+    "contactPhone": "संपर्क फोन",
+    "contactEmail": "संपर्क ईमेल",
+    "noJobsFound": "कोई नौकरी नहीं मिली",
+    "createJob": "नौकरी बनाएं",
+    "viewApplications": "आवेदन देखें",
+    "applications": "आवेदन"
+  },
+  "profile": {
+    "myProfile": "मेरी प्रोफाइल",
+    "personalInfo": "व्यक्तिगत जानकारी",
+    "workInfo": "कार्य जानकारी",
+    "uploadPhoto": "फोटो अपलोड करें",
+    "changePhoto": "फोटो बदलें",
+    "removePhoto": "फोटो हटाएं"
+  },
+  "admin": {
+    "dashboard": "एडमिन डैशबोर्ड",
+    "users": "उपयोगकर्ता",
+    "categories": "श्रेणियां",
+    "jobPosts": "नौकरी पोस्ट",
+    "analytics": "विश्लेषण",
+    "settings": "सेटिंग्स",
+    "totalUsers": "कुल उपयोगकर्ता",
+    "totalJobs": "कुल नौकरियां",
+    "pendingApprovals": "लंबित अनुमोदन"
+  },
+  "employer": {
+    "dashboard": "नियोक्ता डैशबोर्ड",
+    "myJobs": "मेरी नौकरियां",
+    "createJob": "नई नौकरी बनाएं",
+    "applications": "आवेदन",
+    "exportData": "डेटा निर्यात करें"
+  },
+  "worker": {
+    "dashboard": "कार्यकर्ता डैशबोर्ड",
+    "findJobs": "नौकरी खोजें",
+    "myApplications": "मेरे आवेदन",
+    "appliedJobs": "आवेदन की गई नौकरियां"
+  }
+}
